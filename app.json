@@ -1,5 +1,9 @@
 {
   "expo": {
+    "permissions": [
+      "CAMERA",
+      "MEDIA_LIBRARY"
+    ],
     "name": "MyNewProject",
     "slug": "MyNewProject",
     "version": "1.0.0",
@@ -22,6 +26,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a2218d9c-77c2-43b2-b553-eb8846c35b88"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/a2218d9c-77c2-43b2-b553-eb8846c35b88"
     }
   }
 }
